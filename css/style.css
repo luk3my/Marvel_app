@@ -1,0 +1,19 @@
+h1 {
+text-align: center;
+}
+
+
+#results {
+  display: flex;
+}
+
+
+#results ul {
+  list-style: none;
+
+}
+
+
+li {
+  color: grey;
+}
