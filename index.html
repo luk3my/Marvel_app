@@ -6,16 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <script src="js/script.js"></script>
 <body>
 <h1>Marvel comics</h1>
+<div class="container">
+  <div class="row">
+    <div class="search col-md-4">
+      <input id="searchbar" type="text" placeholder="Seach for comics..."
+      title="Comic Search" onkeyup="searchComicTitles()">
+  </div>
+  </div>
+<div id="results" class="row">
 
-<div id="results">
-  <ul>
-    <li></li>
-  </ul>
 </div>
-
+</div>
 </body>
 </html>
